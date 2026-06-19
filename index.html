@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Lima Fernandes | Currículo Profissional</title>
+    <style>
+        :root {
+            --primary-color: #1B365D;
+            --text-color: #333333;
+            --bg-color: #f4f6f9;
+            --card-bg: #ffffff;
+            --border-color: #e1e4e8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        header h1 {
+            color: var(--primary-color);
+            font-size: 28px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .contact-info a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 18px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        p, li {
+            font-size: 14.5px;
+            color: #444;
+            margin-bottom: 8px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .bullets li {
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .bullets li::before {
+            content: "•";
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 18px;
+            position: absolute;
+            left: 0;
+            top: -2px;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 15px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #222;
+        }
+
+        .job-meta {
+            font-size: 13px;
+            color: #777;
+            margin-bottom: 5px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            background: #fafafa;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+        }
+
+        .skills-category strong {
+            color: var(--primary-color);
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+            .container { padding: 20px; }
+            .skills-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Daniel Lima Fernandes</h1>
+        <div class="contact-info">
+            (21) 97035-2772 | <a href="mailto:dl.fernandes.rj21@gmail.com">dl.fernandes.rj21@gmail.com</a> | Rio de Janeiro – RJ<br>
+            <a href="https://www.linkedin.com/in/daniel-fernandes-016713384/" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/Dl-Fernandes" target="_blank">GitHub</a>
+        </div>
+    </header>
+
+    <section id="objetivo">
+        <h2>Objetivo Profissional</h2>
+        <p>Atuar em posições de <strong>Suporte Técnico, Help Desk ou Service Desk (Nível 1)</strong>. O objetivo é aplicar a sólida base técnica em sistemas operacionais Linux, Redes e Git desenvolvida academicamente e por meio de formações intensivas na DIO, visando a resolução eficiente de incidentes (troubleshooting), cumprimento de SLAs operacionais e otimização da experiência do usuário final.</p>
+    </section>
+
+    <section id="formacao">
+        <h2>Formação Acadêmica</h2>
+        <div class="education-item">
+            <p class="job-title">Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS)</p>
+            <p class="job-meta">Universidade Veiga de Almeida (UVA) | Período: Agosto/2025 a Dezembro/2027 (Previsão de conclusão)</p>
+        </div>
+    </section>
+
+    <section id="certificacoes">
+        <h2>Formação Técnica e Certificações</h2>
+        <ul class="bullets">
+            <li><strong>Formação Linux Experience (42h)</strong> – Digital Innovation One (DIO) – <em>Concluído em 11/06/2026</em></li>
+            <li><strong>Bootcamp Santander - Linux para Iniciantes (30h)</strong> – DIO / Santander – <em>Concluído em 01/06/2026</em></li>
+            <li><strong>Formação Linux Fundamentals (23h)</strong> – Digital Innovation One (DIO) – <em>Concluído em 28/05/2026</em></li>
+            <li><strong>Fundamentos de Redes de Computadores (1h)</strong> – Digital Innovation One (DIO) – <em>Concluído em 12/06/2026</em></li>[cite: 5, 6]
+            <li><strong>Versionamento de Código com Git e GitHub (2h)</strong> – Digital Innovation One (DIO)</li>
+        </ul>
+    </section>
+
+    <section id="experiencia">
+        <h2>Histórico Profissional</h2>
+
+        <div class="experience-item">
+            <p class="job-title">Profissional Autônomo – Área Comercial/Vendas</p>
+            <p class="job-meta">Atuação Independente | Período: 2018 – Atual</p>
+            <ul class="bullets">
+                <li>Atuação direta na prospecção de clientes, negociação, fechamento de vendas e pós-venda de bens de consumo (varejo), garantindo altos índices de satisfação e fidelização.</li>
+                <li>Gerenciamento autônomo de fluxo de caixa, controle rigoroso de estoque, pedidos e metas diárias de faturamento.</li>
+                <li>Resolução direta de problemas com clientes (reclamações, trocas e suporte pós-venda), aplicando técnicas de comunicação clara e contorno de objeções sob cenários de pressão comercial.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <p class="job-title">Motorista de Ônibus</p>
+            <p class="job-meta">Auto Viação Palmares LTDA | Período: 2016 – 2018</p>
+            <ul class="bullets">
+                <li>Responsável pelo transporte seguro de passageiros em linhas urbanas de alta densidade no Rio de Janeiro, atuando sob severa pressão de rotas, tráfego e horários.</li>
+                <li>Atendimento direto ao público em ambiente dinâmico, mitigação de conflitos interpessoais e tomada de decisão rápida sob normas rígidas de segurança.</li>
+                <li>Cumprimento rigoroso de horários preestabelecidos, desenvolvendo disciplina operacional equivalente a metas de SLA corporativas.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="competencias">
+        <h2>Competências Técnicas e Interpessoais</h2>
+        <div class="skills-grid">
+            <div class="skills-category">
+                <strong>Sistemas Operacionais & Infraestrutura</strong>
+                <p>Linux (CLI, permissões, pacotes, processos), Redes (TCP/IP, portas, conectividade) e Git/GitHub.</p>
+            </div>
+            <div class="skills-category">
+                <strong>Metodologias & Soft Skills</strong>
+                <p>Troubleshooting (Resolução de problemas), cumprimento de metas/SLA, resiliência, inteligência emocional e comunicação assertiva.</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
